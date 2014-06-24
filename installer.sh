@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "Isso vai apagar todas as suas configuracoes atuais. Voce tem certeza? [y/N]"
+echo "Isso vai apagar todas as suas configuracoes de rc em $HOME. Voce tem certeza? [y/N]"
 read confirm
 
 case $confirm in

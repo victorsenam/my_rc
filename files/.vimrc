@@ -1,28 +1,14 @@
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Colors and UI
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" enable syntax highlighting
-syntax on
+" Base Minimal RC
+source ~/.vim/rcs/minimal/.vimrc
 
-" set colorscheme
-set t_Co=256
-colorscheme molokai
+" Web RC
+autocmd FileType ruby source ~/.vim/rcs/web/.vimrc
+autocmd FileType css source ~/.vim/rcs/web/.vimrc
+autocmd FileType php source ~/.vim/rcs/web/.vimrc
+autocmd FileType handlebars source ~/.vim/rcs/web/.vimrc
+autocmd FileType html source ~/.vim/rcs/web/.vimrc
+autocmd FileType haml source ~/.vim/rcs/web/.vimrc
+autocmd FileType javascript source ~/.vim/rcs/web/.vimrc
 
-" line numbers
-set number
-
-" -----------------------------------------
-" ------ Tabs and Indent ------------------
-" -----------------------------------------
-" spaces instead of tabs
-set expandtab
-
-" smart tabs and indent
-set smarttab
-set ai
-set si
-set wrap
-
-" width
-set shiftwidth=4
-set tabstop=4
+" Make
+autocmd FileType make set noexpandtab

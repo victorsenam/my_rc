@@ -12,3 +12,6 @@ autocmd FileType javascript source ~/.vim/rcs/web/.vimrc
 
 " Make
 autocmd FileType make set noexpandtab
+
+" TeX
+autocmd FileType tex source ~/.vim/rcs/tex/.vimrc

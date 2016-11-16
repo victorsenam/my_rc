@@ -23,3 +23,9 @@ Link `$RCS/i3` to `~/.config/i3`.
 ``ln -s $RCS/i3 ~/.config/i3``  
 Reload your i3 config, on standart config, this is made using the hotkey `mod+Shift+c` where `mod` is either the `Super` (`Windows`) Key or `Alt`.
 
+# vimperator
+This assumes your vimperator sourcer `~/.vimperatorrc`.
+
+## Setup
+Link `$RCS/vimperator/.vimperatorrc` to `~/.vimperatorrc`.
+``ln -s $RCS/vimperator/.vimperatorrc ~/.vimperatorrc``  

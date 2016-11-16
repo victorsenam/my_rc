@@ -2,7 +2,7 @@
 ## What is this?
 
 ## Setup
-Clone this to a folder of your choice. I will consider the repository absolute path as stored in the variable `$RCS`. If you want it to actually be on that variable (so you can just copy and paste the scripts written here) run `export RCS=yourpath` where yourpath should be the path you've chosen.  
+Clone this to a folder of your choice. I will consider the repository absolute path as stored in the variable `$RCS`. If you want it to actually be on that variable (so you can just copy and paste the scripts written here) run `export RCS=yourpath` where `yourpath` should be the path you've chosen.  
 Next, follow the instructions specific for what you want to install.  
 This config assumes `~/` is a valid path.
 
@@ -20,12 +20,12 @@ This assumes your i3 config is in `~/.config/i3`.
 
 ## Setup
 Link `$RCS/i3` to `~/.config/i3`.  
-``ln -s $RCS/i3 ~/.config/i3``  
+``ln -s $RCS/i3 ~/.config/i3``   
 Reload your i3 config, on standart config, this is made using the hotkey `mod+Shift+c` where `mod` is either the `Super` (`Windows`) Key or `Alt`.
 
 # vimperator
 This assumes your vimperator sourcer `~/.vimperatorrc`.
 
 ## Setup
-Link `$RCS/vimperator/.vimperatorrc` to `~/.vimperatorrc`.
+Link `$RCS/vimperator/.vimperatorrc` to `~/.vimperatorrc`.  
 ``ln -s $RCS/vimperator/.vimperatorrc ~/.vimperatorrc``  

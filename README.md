@@ -28,4 +28,4 @@ This assumes your vimperator sourcer `~/.vimperatorrc`.
 
 ## Setup
 Link `$RCS/vimperator/.vimperatorrc` to `~/.vimperatorrc`.  
-``ln -s $RCS/vimperator/.vimperatorrc ~/.vimperatorrc``  
+``ln $RCS/vimperator/.vimperatorrc ~/.vimperatorrc``  

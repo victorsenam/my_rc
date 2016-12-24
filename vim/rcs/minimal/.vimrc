@@ -32,4 +32,4 @@ set tabstop=4
 " Commands
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " commands
-command G ! g++ %:t -g -std=c++11
+command G ! g++ %:p -fdiagnostics-color -g -std=c++11 |& less -r

@@ -6,6 +6,7 @@ syntax on
 
 " set colorscheme
 set t_Co=256
+set t_ut=
 colorscheme hybrid
 
 " line numbers

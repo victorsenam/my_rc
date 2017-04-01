@@ -15,3 +15,4 @@ autocmd FileType make set noexpandtab
 
 " TeX
 autocmd FileType tex source ~/.vim/rcs/tex/.vimrc
+autocmd FileType plaintex source ~/.vim/rcs/tex/.vimrc

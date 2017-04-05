@@ -1,3 +1,4 @@
 set hintchars=hjklasdfgyuiopqwertnmzxcvb
 ignorekeys add docs\\.google\\.com
 ignorekeys add web\\.telegram\\.org
+ignorekeys add ide\\.c9\\.io

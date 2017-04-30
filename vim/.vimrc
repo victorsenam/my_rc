@@ -14,5 +14,6 @@ autocmd FileType javascript source ~/.vim/rcs/web/.vimrc
 autocmd FileType make set noexpandtab
 
 " TeX
+autocmd BufNewFile,BufRead *.tikz set filetype=tex
 autocmd FileType tex source ~/.vim/rcs/tex/.vimrc
 autocmd FileType plaintex source ~/.vim/rcs/tex/.vimrc

@@ -1,5 +1,5 @@
 " Base Minimal RC
-source ~/.vim/rcs/minimal/.vimrc
+source ~/.vim/rcs/icpc/.vimrc
 
 " Web RC
 autocmd FileType ruby source ~/.vim/rcs/web/.vimrc

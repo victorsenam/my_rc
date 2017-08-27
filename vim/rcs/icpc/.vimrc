@@ -1,3 +1,4 @@
 syntax on
 colo evening
-set t_Co=8 nu rnu et sta ai si wrap sw=4 ts=4
+set ai si noet ts=4 sw=4 sta sm nu rnu t_Co=8
+imap {<CR> {<CR>}<Esc>O

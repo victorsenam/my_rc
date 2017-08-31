@@ -16,8 +16,8 @@ hide_edge_borders none
 
 # change borders
 bindsym $mod+u border none
-bindsym $mod+y border pixel 1
-bindsym $mod+n border normal
+#bindsym $mod+y border pixel 1
+#bindsym $mod+n border normal
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -57,8 +57,8 @@ bindsym $mod+Ctrl+m exec $terminal -e 'alsamixer'
 
 # custom commands
 # - touchpad
-bindsym $mod+t exec "synclient TouchpadOff=1 && xdotool mousemove 0 0"
-bindsym $mod+Shift+t exec "synclient TouchpadOff=0"
+bindsym $mod+Shift+t exec "xinput disable 11 && xdotool mousemove 0 0"
+bindsym $mod+t exec "xinput enable 11"
 # - change output
 bindsym $mod+o move workspace to output left
 

@@ -1,3 +1,6 @@
+" Vundle
+source ~/.vim/rcs/bundle.vimrc
+
 " Base Minimal RC
 source ~/.vim/rcs/icpc.vimrc
 

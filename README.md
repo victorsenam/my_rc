@@ -14,6 +14,8 @@ Link `$RCS/vim` to `~/.vim` (you may have to move our remove your `~/.vim` folde
 ``ln -s $RCS/vim/ ~/.vim``  
 Source `~/.vim/.vimrc` from `~/.vimrc`. Just set your `~/.vimrc` to be  
 ``source ~/.vim/.vimrc``
+Install the Vundle plugins by running  
+``vim +PluginInstall``
 
 # i3
 This assumes your i3 config is in `~/.config/i3`.

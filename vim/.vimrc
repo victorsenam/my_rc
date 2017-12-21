@@ -17,3 +17,6 @@ autocmd FileType make set noexpandtab
 autocmd BufNewFile,BufRead *.tikz set filetype=tex
 autocmd FileType tex source ~/.vim/rcs/tex/.vimrc
 autocmd FileType plaintex source ~/.vim/rcs/tex/.vimrc
+
+" MarkDown
+autocmd FileType markdown source ~/.vim/rcs/markdown/.vimrc
